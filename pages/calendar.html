@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>AdminLTE 2 | Calendar</title>
+  <title>PTI| Calendar</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <!-- Bootstrap 3.3.7 -->
@@ -20,6 +20,7 @@
   <!-- AdminLTE Skins. Choose a skin from the css/skins
        folder instead of downloading all of them to reduce the load. -->
   <link rel="stylesheet" href="../dist/css/skins/_all-skins.min.css">
+  <link rel="stylesheet" href="dist/css/styles.css">        
 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -39,9 +40,9 @@
     <!-- Logo -->
     <a href="../index2.html" class="logo">
       <!-- mini logo for sidebar mini 50x50 pixels -->
-      <span class="logo-mini"><b>A</b>LT</span>
+      <span class="logo-mini"><b>P</b>TI</span>
       <!-- logo for regular state and mobile devices -->
-      <span class="logo-lg"><b>Admin</b>LTE</span>
+      <span class="logo-lg"><b>PTI</b> গাজীপুর</span>
     </a>
     <!-- Header Navbar: style can be found in header.less -->
     <nav class="navbar navbar-static-top">
@@ -300,16 +301,17 @@
     </nav>
   </header>
   <!-- Left side column. contains the logo and sidebar -->
+  <!-- Left side column. contains the logo and sidebar -->
   <aside class="main-sidebar">
     <!-- sidebar: style can be found in sidebar.less -->
     <section class="sidebar">
       <!-- Sidebar user panel -->
       <div class="user-panel">
         <div class="pull-left image">
-          <img src="../dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
+          <img src="dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
         </div>
         <div class="pull-left info">
-          <p>Alexander Pierce</p>
+          <p >তৌফিক   রহমান</p>
           <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
         </div>
       </div>
@@ -318,7 +320,8 @@
         <div class="input-group">
           <input type="text" name="q" class="form-control" placeholder="Search...">
           <span class="input-group-btn">
-                <button type="submit" name="search" id="search-btn" class="btn btn-flat"><i class="fa fa-search"></i>
+                <button type="submit" name="search" id="search-btn" class="btn btn-flat">
+                  <i class="fa fa-search"></i>
                 </button>
               </span>
         </div>
@@ -327,174 +330,41 @@
       <!-- sidebar menu: : style can be found in sidebar.less -->
       <ul class="sidebar-menu" data-widget="tree">
         <li class="header">MAIN NAVIGATION</li>
-        <li class="treeview">
-          <a href="#">
-            <i class="fa fa-dashboard"></i> <span>Dashboard</span>
-            <span class="pull-right-container">
-              <i class="fa fa-angle-left pull-right"></i>
-            </span>
-          </a>
-          <ul class="treeview-menu">
-            <li><a href="../index.html"><i class="fa fa-circle-o"></i> Dashboard v1</a></li>
-            <li><a href="../index2.html"><i class="fa fa-circle-o"></i> Dashboard v2</a></li>
-          </ul>
-        </li>
-        <li class="treeview">
-          <a href="#">
-            <i class="fa fa-files-o"></i>
-            <span>Layout Options</span>
-            <span class="pull-right-container">
-              <span class="label label-primary pull-right">4</span>
-            </span>
-          </a>
-          <ul class="treeview-menu">
-            <li><a href="layout/top-nav.html"><i class="fa fa-circle-o"></i> Top Navigation</a></li>
-            <li><a href="layout/boxed.html"><i class="fa fa-circle-o"></i> Boxed</a></li>
-            <li><a href="layout/fixed.html"><i class="fa fa-circle-o"></i> Fixed</a></li>
-            <li><a href="layout/collapsed-sidebar.html"><i class="fa fa-circle-o"></i> Collapsed Sidebar</a></li>
-          </ul>
-        </li>
+        <li><a href="https://adminlte.io/docs"><i class="fa fa-graduation-cap"></i> <span>শিক্ষক</span></a></li> 
+        <li><a href="https://adminlte.io/docs"><i class="fa fa-newspaper-o"></i> <span>পাঠ পরিকল্পনা</span></a></li>
+        <li><a href="https://adminlte.io/docs"><i class="fa fa-edit"></i> <span>লেসন নোটস</span></a></li>
+        <li><a href="https://adminlte.io/docs"><i class="fa fa-book"></i> <span>জার্নাল </span></a></li>
+        <li><a href="https://adminlte.io/docs"><i class="fa fa-address-book-o"></i> <span>টিচার স্ট্যান্ডার্ড </span></a></li>     
+
         <li>
-          <a href="widgets.html">
-            <i class="fa fa-th"></i> <span>Widgets</span>
-            <span class="pull-right-container">
-              <small class="label pull-right bg-green">new</small>
-            </span>
-          </a>
-        </li>
-        <li class="treeview">
-          <a href="#">
-            <i class="fa fa-pie-chart"></i>
-            <span>Charts</span>
-            <span class="pull-right-container">
-              <i class="fa fa-angle-left pull-right"></i>
-            </span>
-          </a>
-          <ul class="treeview-menu">
-            <li><a href="charts/chartjs.html"><i class="fa fa-circle-o"></i> ChartJS</a></li>
-            <li><a href="charts/morris.html"><i class="fa fa-circle-o"></i> Morris</a></li>
-            <li><a href="charts/flot.html"><i class="fa fa-circle-o"></i> Flot</a></li>
-            <li><a href="charts/inline.html"><i class="fa fa-circle-o"></i> Inline charts</a></li>
-          </ul>
-        </li>
-        <li class="treeview">
-          <a href="#">
-            <i class="fa fa-laptop"></i>
-            <span>UI Elements</span>
-            <span class="pull-right-container">
-              <i class="fa fa-angle-left pull-right"></i>
-            </span>
-          </a>
-          <ul class="treeview-menu">
-            <li><a href="UI/general.html"><i class="fa fa-circle-o"></i> General</a></li>
-            <li><a href="UI/icons.html"><i class="fa fa-circle-o"></i> Icons</a></li>
-            <li><a href="UI/buttons.html"><i class="fa fa-circle-o"></i> Buttons</a></li>
-            <li><a href="UI/sliders.html"><i class="fa fa-circle-o"></i> Sliders</a></li>
-            <li><a href="UI/timeline.html"><i class="fa fa-circle-o"></i> Timeline</a></li>
-            <li><a href="UI/modals.html"><i class="fa fa-circle-o"></i> Modals</a></li>
-          </ul>
-        </li>
-        <li class="treeview">
-          <a href="#">
-            <i class="fa fa-edit"></i> <span>Forms</span>
-            <span class="pull-right-container">
-              <i class="fa fa-angle-left pull-right"></i>
-            </span>
-          </a>
-          <ul class="treeview-menu">
-            <li><a href="forms/general.html"><i class="fa fa-circle-o"></i> General Elements</a></li>
-            <li><a href="forms/advanced.html"><i class="fa fa-circle-o"></i> Advanced Elements</a></li>
-            <li><a href="forms/editors.html"><i class="fa fa-circle-o"></i> Editors</a></li>
-          </ul>
-        </li>
-        <li class="treeview">
-          <a href="#">
-            <i class="fa fa-table"></i> <span>Tables</span>
-            <span class="pull-right-container">
-              <i class="fa fa-angle-left pull-right"></i>
-            </span>
-          </a>
-          <ul class="treeview-menu">
-            <li><a href="tables/simple.html"><i class="fa fa-circle-o"></i> Simple tables</a></li>
-            <li><a href="tables/data.html"><i class="fa fa-circle-o"></i> Data tables</a></li>
-          </ul>
-        </li>
-        <li class="active">
-          <a href="calendar.html">
-            <i class="fa fa-calendar"></i> <span>Calendar</span>
+          <a href="pages/calendar.html">
+            <i class="fa fa-calendar"></i> <span>ক্যালেন্ডার</span>
             <span class="pull-right-container">
               <small class="label pull-right bg-red">3</small>
               <small class="label pull-right bg-blue">17</small>
             </span>
           </a>
         </li>
-        <li>
-          <a href="mailbox/mailbox.html">
-            <i class="fa fa-envelope"></i> <span>Mailbox</span>
-            <span class="pull-right-container">
-              <small class="label pull-right bg-yellow">12</small>
-              <small class="label pull-right bg-green">16</small>
-              <small class="label pull-right bg-red">5</small>
-            </span>
-          </a>
-        </li>
+
         <li class="treeview">
           <a href="#">
-            <i class="fa fa-folder"></i> <span>Examples</span>
+            <i class="fa fa-folder"></i> <span>Other</span>
             <span class="pull-right-container">
               <i class="fa fa-angle-left pull-right"></i>
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="examples/invoice.html"><i class="fa fa-circle-o"></i> Invoice</a></li>
-            <li><a href="examples/profile.html"><i class="fa fa-circle-o"></i> Profile</a></li>
-            <li><a href="examples/login.html"><i class="fa fa-circle-o"></i> Login</a></li>
-            <li><a href="examples/register.html"><i class="fa fa-circle-o"></i> Register</a></li>
-            <li><a href="examples/lockscreen.html"><i class="fa fa-circle-o"></i> Lockscreen</a></li>
-            <li><a href="examples/404.html"><i class="fa fa-circle-o"></i> 404 Error</a></li>
-            <li><a href="examples/500.html"><i class="fa fa-circle-o"></i> 500 Error</a></li>
-            <li><a href="examples/blank.html"><i class="fa fa-circle-o"></i> Blank Page</a></li>
-            <li><a href="examples/pace.html"><i class="fa fa-circle-o"></i> Pace Page</a></li>
+            <li><a href="pages/examples/invoice.html"><i class="fa fa-circle-o"></i> Invoice</a></li>
+            <li><a href="pages/examples/profile.html"><i class="fa fa-circle-o"></i> Profile</a></li>
+            <li><a href="pages/examples/login.html"><i class="fa fa-circle-o"></i> Login</a></li>
+            <li><a href="pages/examples/register.html"><i class="fa fa-circle-o"></i> Register</a></li>
+            <li><a href="pages/examples/lockscreen.html"><i class="fa fa-circle-o"></i> Lockscreen</a></li>
+            <li><a href="pages/examples/404.html"><i class="fa fa-circle-o"></i> 404 Error</a></li>
+            <li><a href="pages/examples/500.html"><i class="fa fa-circle-o"></i> 500 Error</a></li>
+            <li><a href="pages/examples/blank.html"><i class="fa fa-circle-o"></i> Blank Page</a></li>
+            <li><a href="pages/examples/pace.html"><i class="fa fa-circle-o"></i> Pace Page</a></li>
           </ul>
         </li>
-        <li class="treeview">
-          <a href="#">
-            <i class="fa fa-share"></i> <span>Multilevel</span>
-            <span class="pull-right-container">
-              <i class="fa fa-angle-left pull-right"></i>
-            </span>
-          </a>
-          <ul class="treeview-menu">
-            <li><a href="#"><i class="fa fa-circle-o"></i> Level One</a></li>
-            <li class="treeview">
-              <a href="#"><i class="fa fa-circle-o"></i> Level One
-                <span class="pull-right-container">
-                  <i class="fa fa-angle-left pull-right"></i>
-                </span>
-              </a>
-              <ul class="treeview-menu">
-                <li><a href="#"><i class="fa fa-circle-o"></i> Level Two</a></li>
-                <li class="treeview">
-                  <a href="#"><i class="fa fa-circle-o"></i> Level Two
-                    <span class="pull-right-container">
-                      <i class="fa fa-angle-left pull-right"></i>
-                    </span>
-                  </a>
-                  <ul class="treeview-menu">
-                    <li><a href="#"><i class="fa fa-circle-o"></i> Level Three</a></li>
-                    <li><a href="#"><i class="fa fa-circle-o"></i> Level Three</a></li>
-                  </ul>
-                </li>
-              </ul>
-            </li>
-            <li><a href="#"><i class="fa fa-circle-o"></i> Level One</a></li>
-          </ul>
-        </li>
-        <li><a href="https://adminlte.io/docs"><i class="fa fa-book"></i> <span>Documentation</span></a></li>
-        <li class="header">LABELS</li>
-        <li><a href="#"><i class="fa fa-circle-o text-red"></i> <span>Important</span></a></li>
-        <li><a href="#"><i class="fa fa-circle-o text-yellow"></i> <span>Warning</span></a></li>
-        <li><a href="#"><i class="fa fa-circle-o text-aqua"></i> <span>Information</span></a></li>
       </ul>
     </section>
     <!-- /.sidebar -->
@@ -505,8 +375,7 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        Calendar
-        <small>Control panel</small>
+        ক্যালেন্ডার 
       </h1>
       <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
@@ -517,68 +386,7 @@
     <!-- Main content -->
     <section class="content">
       <div class="row">
-        <div class="col-md-3">
-          <div class="box box-solid">
-            <div class="box-header with-border">
-              <h4 class="box-title">Draggable Events</h4>
-            </div>
-            <div class="box-body">
-              <!-- the events -->
-              <div id="external-events">
-                <div class="external-event bg-green">Lunch</div>
-                <div class="external-event bg-yellow">Go home</div>
-                <div class="external-event bg-aqua">Do homework</div>
-                <div class="external-event bg-light-blue">Work on UI design</div>
-                <div class="external-event bg-red">Sleep tight</div>
-                <div class="checkbox">
-                  <label for="drop-remove">
-                    <input type="checkbox" id="drop-remove">
-                    remove after drop
-                  </label>
-                </div>
-              </div>
-            </div>
-            <!-- /.box-body -->
-          </div>
-          <!-- /. box -->
-          <div class="box box-solid">
-            <div class="box-header with-border">
-              <h3 class="box-title">Create Event</h3>
-            </div>
-            <div class="box-body">
-              <div class="btn-group" style="width: 100%; margin-bottom: 10px;">
-                <!--<button type="button" id="color-chooser-btn" class="btn btn-info btn-block dropdown-toggle" data-toggle="dropdown">Color <span class="caret"></span></button>-->
-                <ul class="fc-color-picker" id="color-chooser">
-                  <li><a class="text-aqua" href="#"><i class="fa fa-square"></i></a></li>
-                  <li><a class="text-blue" href="#"><i class="fa fa-square"></i></a></li>
-                  <li><a class="text-light-blue" href="#"><i class="fa fa-square"></i></a></li>
-                  <li><a class="text-teal" href="#"><i class="fa fa-square"></i></a></li>
-                  <li><a class="text-yellow" href="#"><i class="fa fa-square"></i></a></li>
-                  <li><a class="text-orange" href="#"><i class="fa fa-square"></i></a></li>
-                  <li><a class="text-green" href="#"><i class="fa fa-square"></i></a></li>
-                  <li><a class="text-lime" href="#"><i class="fa fa-square"></i></a></li>
-                  <li><a class="text-red" href="#"><i class="fa fa-square"></i></a></li>
-                  <li><a class="text-purple" href="#"><i class="fa fa-square"></i></a></li>
-                  <li><a class="text-fuchsia" href="#"><i class="fa fa-square"></i></a></li>
-                  <li><a class="text-muted" href="#"><i class="fa fa-square"></i></a></li>
-                  <li><a class="text-navy" href="#"><i class="fa fa-square"></i></a></li>
-                </ul>
-              </div>
-              <!-- /btn-group -->
-              <div class="input-group">
-                <input id="new-event" type="text" class="form-control" placeholder="Event Title">
-
-                <div class="input-group-btn">
-                  <button id="add-new-event" type="button" class="btn btn-primary btn-flat">Add</button>
-                </div>
-                <!-- /btn-group -->
-              </div>
-              <!-- /input-group -->
-            </div>
-          </div>
-        </div>
-        <!-- /.col -->
-        <div class="col-md-9">
+        <div class="col-md-12">
           <div class="box box-primary">
             <div class="box-body no-padding">
               <!-- THE CALENDAR -->
