@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>ওয়েলকাম</title>
+  <title>শিক্ষক | PTI</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <!-- Bootstrap 3.3.7 -->
@@ -332,14 +332,14 @@
       <!-- sidebar menu: : style can be found in sidebar.less -->
       <ul class="sidebar-menu" data-widget="tree">
         <li class="header">MAIN NAVIGATION</li>
-        <li><a href="teachers.html"><i class="fa fa-graduation-cap"></i> <span>শিক্ষক</span></a></li> 
+        <li><a href="#"><i class="fa fa-graduation-cap"></i> <span>শিক্ষক</span></a></li> 
         <li><a href="https://adminlte.io/docs"><i class="fa fa-newspaper-o"></i> <span>পাঠ পরিকল্পনা</span></a></li>
         <li><a href="https://adminlte.io/docs"><i class="fa fa-edit"></i> <span>লেসন নোটস</span></a></li>
         <li><a href="https://adminlte.io/docs"><i class="fa fa-book"></i> <span>জার্নাল </span></a></li>
         <li><a href="https://adminlte.io/docs"><i class="fa fa-address-book-o"></i> <span>টিচার স্ট্যান্ডার্ড </span></a></li>     
 
         <li>
-          <a href="pages/calendar.html">
+          <a href="calendar.html">
             <i class="fa fa-calendar"></i> <span>ক্যালেন্ডার</span>
             <span class="pull-right-container">
               <small class="label pull-right bg-red">3</small>
@@ -375,27 +375,13 @@
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
     <!-- Content Header (Page header) -->
-    <section class="content-header">
-      <ul class="nav nav-tabs">
-          <li class="active"><a href="#1" data-toggle="tab">উপডেটস </a></li>
-          <li><a href="#2" data-toggle="tab">মেসেজেস</a></li>
-          <li><a href="#" data-toggle="tab">লেসন প্ল্যান</a></li>
-          <li><a href="#" data-toggle="tab">লেসন নোটস </a></li>
-          <li><a href="#" data-toggle="tab">রিফ্লেক্টিভ  জার্নাল</a></li>
-      </ul>
-        <br>  
- 
-      <ol class="breadcrumb">
-        <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-        <li class="active">Dashboard</li>
-      </ol>
-    </section>
+
 
     <!-- Main content -->
- <div class="tab-content "> 
+
      <div class="tab-pane active" id="1"> 
        <div class="col-md-6 col-sm-6 col-xs-12">
-      <h1>রিসেন্ট  একটিভিটি </h1>
+      <h1>টিচার্স </h1>
         </div>
         <br>
         <div class="col-md-4 col-sm-4 col-xs-12 pull-right">
@@ -422,77 +408,66 @@
     <section class="content">
       <div class="row">
         <div class="col-md-12">
-          <div class="box box-info">
-            <div class="box-header with-border">
-              <h3 class="box-title">Updates</h3>
-
-              <div class="box-tools pull-right">
-                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
-                </button>
-                <div class="btn-group">
-                  <button type="button" class="btn btn-box-tool dropdown-toggle" data-toggle="dropdown">
-                    <i class="fa fa-wrench"></i></button>
-                  <ul class="dropdown-menu" role="menu">
-                    <li><a href="#">Action</a></li>
-                    <li><a href="#">Another action</a></li>
-                    <li><a href="#">Something else here</a></li>
-                    <li class="divider"></li>
-                    <li><a href="#">Separated link</a></li>
-                  </ul>
-                </div>
-                <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
-              </div>
-            </div>
-            <!-- /.box-header -->
             <div class="box-body">
-              <div class="row">
-                <div class="col-md-8">
-                  <ul>
-                      <li><a href="#">Sam Hasan</a> has submitted a <a href="#">লেসন প্ল্যান</a></li>
-                      <li><a href="#">Karim Khan</a> has submitted a <a href="#">লেসন প্ল্যান</a></li>
-                      <li><a href="#">Saad</a> has submitted a <a href="#">লেসন প্ল্যান</a></li>
-                  </ul>            
-                </div>
-                <!-- /.col -->
-                <div class="col-md-4">
-                  <p class="text-center">
-                    <strong>এক্সপেকটেড গোয়াল</strong>
-                  </p>
-
-                  <div class="progress-group">
-                    <span class="progress-text">Number of lesson plans</span>
-                    <span class="progress-number"><b>60</b>/100</span>
-
-                     <div class="progress sm">
-                <div class="progress-bar progress-bar-aqua" style="width: 60%"></div>
+              <div class="table-responsive">
+                <table class="table table-bordered">
+                  <thead>
+                  <tr>
+                    <th>নাম</th>
+                    <th>ফোন</th>
+                    <th>ইমেইল</th>
+                    <th>স্কুল</th>
+                    <th>সাবমিশনস</th>
+                    <th>মেসেজেস </th>  
+                  </tr>
+                  </thead>
+                  <tbody>
+                  <tr>
+                    <td><a href="pages/examples/invoice.html">Sam Hasan</a></td>
+                    <td>01713463980</td>
+                    <td>sam01@gmail.com</td>
+                    <td>Army Cadet School</td>
+                    <td>89/100</td>
+                    <td><a href="pages/examples/invoice.html">Shesh</a></td>  
+                  </tr>
+                  <tr>
+                    <td><a href="pages/examples/invoice.html">Bhaumik Patel</a></td>
+                    <td>01993466980</td>
+                    <td>bhaibhai1@gmail.com</td>
+                    <td>Hope School</td>
+                    <td>80/100</td>
+                    <td><a href="pages/examples/invoice.html">Hi?</a></td>  
+                  </tr>
+                  <tr>
+                    <td><a href="pages/examples/invoice.html">Karim Khan</a></td>
+                    <td>01613123980</td>
+                    <td>KarimmKhan@gmail.com</td>
+                    <td>Missionary School</td>
+                    <td>78/100</td>
+                    <td><a href="pages/examples/invoice.html">Need help</a></td>  
+                  </tr>
+                  <tr>
+                    <td><a href="pages/examples/invoice.html">Don Jon</a></td>
+                    <td>01813488880</td>
+                    <td>zonn@gmail.com</td>
+                    <td>Visionary School</td>
+                    <td>21/100</td>
+                    <td><a href="pages/examples/invoice.html">Dued submissions</a></td>  
+                  </tr>
+                  <tr>
+                    <td><a href="pages/examples/invoice.html">Sums Hossain</a></td>
+                    <td>01798663980</td>
+                    <td>sumz01@gmail.com</td>
+                    <td>Dhaka International</td>
+                    <td>65/100</td>
+                    <td><a href="pages/examples/invoice.html">Done</a></td>  
+                  </tr>
+                  </tbody>
+                </table>
               </div>
-              <span class="progress-description">
-                    60% lesson plans received.
-                  </span>
-                  </div>
-                    <br>
-                  <!-- /.progress-group -->
-                  <div class="progress-group">
-                    <span class="progress-text">Number of notes submitted</span>
-                    <span class="progress-number"><b>310</b>/400</span>
-
-                    <div class="progress sm">
-                      <div class="progress-bar progress-bar-red" style="width: 80%"></div>
-                    </div>
-                      <span class="progress-description">
-                    77% notes submitted.
-                  </span>
-                  </div>
-               
-                </div>
-                <!-- /.col -->
-              </div>
-              <!-- /.row -->
+              <!-- /.table-responsive -->
             </div>
-            <!-- ./box-body -->
 
-          </div>
-          <!-- /.box -->
         </div>
         <!-- /.col -->
        <div class="push"></div>
@@ -501,73 +476,8 @@
      </section>
        <!-- /.tab pane 1-->
     </div>
-  <div class="tab-pane" id="2">
-      <div class="col-sm-10 col-md-12">
-            <!-- Nav tabs -->
-            <ul class="nav nav-tabs">
-                <li class="active"><a href="#home" data-toggle="tab"><span class="glyphicon glyphicon-inbox">
-                </span> Inbox</a></li>
-                <li><a href="#profile" data-toggle="tab"><span class="glyphicon glyphicon-user"></span>
-                    Outbox</a></li>
-                <li><a href="#messages" data-toggle="tab"><span class="glyphicon glyphicon-tags"></span>
-                    Promotions</a></li>
-                <li><a href="#settings" data-toggle="tab"><span class="glyphicon glyphicon-plus no-margin">
-                </span></a></li>
-            </ul>
-            <!-- Tab panes -->
-            <div class="tab-content">
-                <div class="tab-pane fade in active" id="home">
-                    <div class="list-group">
-                        <a href="#" class="list-group-item">
-                            <div class="checkbox">
-                                <label>
-                                    <input type="checkbox">
-                                </label>
-                            </div>
-                            <span class="glyphicon glyphicon-star-empty"></span><span class="name" style="min-width: 120px;
-                                display: inline-block;">Bhaumik Patel</span> <span class="">This is a big title</span>
-                            <span class="text-muted" style="font-size: 11px;">- I have finished my lessons. </span> <span
-                                class="badge"> 12:10  AM </span> <span class="pull-right"><span class="glyphicon glyphicon-paperclip">
-                                </span></span></a>
-                        <a href="#" class="list-group-item">
-                                    <div class="checkbox">
-                                        <label>
-                                            <input type="checkbox">
-                                        </label>
-                                    </div>
-                                    <span class="glyphicon glyphicon-star-empty"></span><span class="name" style="min-width: 120px;
-                                        display: inline-block;">Sam Hasan</span> <span class="">Can I submit my work tomorrow? </span>
-                                    <span class="text-muted" style="font-size: 11px;">- Hi hello how r u ?</span> <span
-                                        class="badge"> 12:10  AM</span> <span class="pull-right"><span class="glyphicon glyphicon-paperclip">
-                                        </span></span></a><a href="#" class="list-group-item read">
-                                            <div class="checkbox">
-                                                <label>
-                                                    <input type="checkbox">
-                                                </label>
-                                            </div>
-                                            <span class="glyphicon glyphicon-star"></span><span class="name" style="min-width: 120px;
-                                                display: inline-block;">Bhaumik Patel</span> <span class="">This is big title</span>
-                                            <span class="text-muted" style="font-size: 11px;">- Hi hello how r u ? </span> <span
-                                                class="badge"> 12:10  AM</span> <span class="pull-right"><span class="glyphicon glyphicon-paperclip">
-                                                </span></span></a>
-                    </div>
-                </div>
-                <div class="tab-pane fade in" id="profile">
-                    <div class="list-group">
-                        <div class="list-group-item">
-                            <span class="text-center">This tab is empty.</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="tab-pane fade in" id="messages">
-                    ...</div>
-                <div class="tab-pane fade in" id="settings">
-                    This tab is empty.</div>
-            </div>
-        </div>
-  </div>
-  <!-- /.tab content -->
-</div> 
+
+
   <!-- /.content-wrapper -->
  </div>
   <footer class="main-footer">
